@@ -80,12 +80,6 @@ app.post("/compose", function(req, res) {
 
 });
 
-
-
-
-
-
-
 const test = app.get("/posts/:postName", function(req, res) {
 
   const requestedTitle = _.lowerCase(req.params.postName);
